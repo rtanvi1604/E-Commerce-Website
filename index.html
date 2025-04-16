@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanvi's E-Commerce</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="navbar-brand">
+        <img src="/images/Screenshot 2025-04-15 214649.png" alt="Taffy & Tulle Logo" class="logo" />
+        <span class="brand-name">Taffy & Tulle</span>
+      </div>
+  
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search products...">
+      </div>
+  
+      <div class="cart">
+        🛒 Cart: <span id="cart-count">0</span>
+        <a href="checkout.html">
+          <button>Checkout</button>
+        </a>
+      </div>
+    </div>
+      <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to our Store</h2>
+      <p>Shop the trendiest fashion now!</p>
+    </section>
+  </main>
+  <section class="products">
+    <div>
+    <h2>Our Products</h2>
+  </div>
+    <br>
+    <div class="product-list">
+      <div class="product-card">
+        <img src="./images/sunglass.jpeg" alt="Product 1">
+        <h3>Stylish Sunglasses</h3>
+        <p>₹499</p>
+        <button onclick="addToCart('Stylish Sunglasses')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/trendy tshirt.avif" alt="Product 2">
+        <h3>Trendy T-Shirt</h3>
+        <p>₹399</p>
+        <button onclick="addToCart('Trendy T-Shirt')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/cool sneakers.webp" alt="Product 3">
+        <h3>Cool Sneakers</h3>
+        <p>₹2299</p>
+        <button onclick="addToCart('Cool Sneakers')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/customizable jewellery.webp" alt="Product 2">
+        <h3>Your Name Your Jewellery</h3>
+        <p>₹659</p>
+        <button onclick="addToCart('Customizable Jewellery')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/oversized totte bags.avif" alt="Product 2">
+        <h3>Classy Tote Bag</h3>
+        <p>₹449</p>
+        <button onclick="addToCart('Totte bag')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/vintage watches.webp" alt="Product 2">
+        <h3>Vinatge look watch</h3>
+        <p>₹769</p>
+        <button onclick="addToCart('Vintage Watch')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/bow accent pleated shoulder bag.webp" alt="Product 2">
+        <h3>Bow accent pleated shoulder bag</h3>
+        <p>₹559</p>
+        <button onclick="addToCart('Bow accent pleated shoulder bag')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/Justharion Crossbody Bag.webp" alt="Product 2">
+        <h3>Justharion Crossbody Bag</h3>
+        <p>₹419</p>
+        <button onclick="addToCart('Justharion Crossbody Bag')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/heel.jpeg" alt="Product 2">
+        <h3>Perfect Blackish Heel</h3>
+        <p>₹889</p>
+        <button onclick="addToCart('Blackish heel')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/lip oil.webp" alt="Product 2">
+        <h3>Rose Tinted Lip Oil</h3>
+        <p>₹439</p>
+        <button onclick="addToCart('Tinted Lip Oil')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/nails.webp" alt="Product 2">
+        <h3>Polished Nails</h3>
+        <p>₹289</p>
+        <button onclick="addToCart('Polished Nails')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./images/Y2K Camo Cargo Pants.jpg" alt="Product 2">
+        <h3>Y2K Camo Cargo Pants</h3>
+        <p>₹999</p>
+        <button onclick="addToCart('Camo Cargo Pants')">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+</html>

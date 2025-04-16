@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About / Contact / Products</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="navbar-brand">
+        <img src="/images/Screenshot 2025-04-15 214649.png" alt="Taffy & Tulle Logo" class="logo" />
+        <span class="brand-name">Taffy & Tulle</span>
+      </div>
+  
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search products...">
+      </div>
+  
+      <div class="cart">
+        🛒 Cart: <span id="cart-count">0</span>
+        <a href="checkout.html">
+          <button>Checkout</button>
+        </a>
+      </div>
+    </div>
+      <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+      <section class="contact-form">
+        <h2>Contact Us 💬</h2>
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" required />
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your email" required />
+      
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Your message" required></textarea>
+      
+          <button type="submit">Send Message</button>
+          <p id="form-status"></p>
+        </form>
+      </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

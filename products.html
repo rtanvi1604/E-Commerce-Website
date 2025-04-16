@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="navbar-brand">
+        <img src="/images/Screenshot 2025-04-15 214649.png" alt="Taffy & Tulle Logo" class="logo" />
+        <span class="brand-name">Taffy & Tulle</span>
+      </div>
+  
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search products...">
+      </div>
+  
+      <div class="cart">
+        🛒 Cart: <span id="cart-count">0</span>
+        <a href="checkout.html">
+          <button>Checkout</button>
+        </a>
+      </div>
+    </div>
+      <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="a">
+      <br>
+      <br>
+      <h2>
+        Trendy T-Shirts
+      </h2>
+      <br>
+      <br>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="./images/trendy t/black crop top 499.webp" alt="Product 2" />
+          <h3>Black Crop Top</h3>
+          <p>₹499</p>
+          <button onclick="addToCart('Black Crop Top')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/trendy t/flamingo themeed t 299.webp" alt="Product 1" />
+          <h3>Flamingo Themed Tee</h3>
+          <p>₹299</p>
+          <button onclick="addToCart('Flamingo Themed Tee')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/trendy t/Funky Monkey Crop Top 399.webp" alt="Product 3" />
+          <h3>Funky Monkey Crop Top</h3>
+          <p>₹399</p>
+          <button onclick="addToCart('Funky Monkey Crop Top')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/trendy t/Gaphic Tee 649.webp" alt="Product 2" />
+          <h3>Classy Graphic Tee</h3>
+          <p>₹649</p>
+          <button onclick="addToCart('Classy Graphic Tee')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/trendy t/Lam Kwongy T-shirt 549.jpg" alt="Product 3" />
+          <h3>Lam Kwongy T-shirt</h3>
+          <p>₹549</p>
+          <button onclick="addToCart('Lam Kwongy T-shirt')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/trendy t/palm springs shirt 225.webp" alt="Product 2" />
+          <h3>Palm springs T-shirt</h3>
+          <p>₹225</p>
+          <button onclick="addToCart('Palm springs t-shirt')">Add to Cart</button>
+        </div>
+    </section>
+    <section class="h">
+      <br>
+      <br>
+      <h2>
+        Watches
+      </h2>
+      <br>
+      <br>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="./images/watches/Anne Klein Analogue Blush Pink Resin Dial Watch 7000.webp" alt="Product 2" />
+          <h3>Anne Klein Analogue Blush Pink Resin Dial Watch</h3>
+          <p>₹7000</p>
+          <button onclick="addToCart('Anne Klein Analogue Blush Pink Resin Dial Watch')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/watches/Casio LTP-VTO1D-1BUDF Enticer Analog Watch 3795.webp" alt="Product 1" />
+          <h3>Casio LTP-VTO1D-1BUDF Enticer Analog Watch</h3>
+          <p>₹3795</p>
+          <button onclick="addToCart('Casio LTP-VTO1D-1BUDF Enticer Analog Watch')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/watches/Daniel Wellington DW Watch Petite Ashfield 13995.webp" alt="Product 3" />
+          <h3>Daniel Wellington DW Watch Petite Ashfield</h3>
+          <p>₹13995</p>
+          <button onclick="addToCart('Daniel Wellington DW Watch Petite Ashfield')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/watches/Tissot Classic Watch.webp" alt="Product 2" />
+          <h3>Tissot Classic Watch</h3>
+          <p>₹15223</p>
+          <button onclick="addToCart('Tissot Classic Watch')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/watches/Michael Kors Harlowe Rose Gold Watch 20459.webp" alt="Product 3" />
+          <h3>Michael Kors Harlowe Rose Gold Watch</h3>
+          <p>₹20459</p>
+          <button onclick="addToCart('Michael Kors Harlowe Rose Gold Watch')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/watches/Titan 2608QM02 Raga Brown Metal Analog Watch 3039.webp" alt="Product 2" />
+          <h3>Titan 2608QM02 Raga Brown Metal Analog Watch</h3>
+          <p>₹3039</p>
+          <button onclick="addToCart('Titan 2608QM02 Raga Brown Metal Analog Watch')">Add to Cart</button>
+        </div>
+    </section>
+    <section class="c">
+      <br>
+      <br>
+      <h2>
+        Sneakers
+      </h2>
+      <br>
+      <br>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="./images/sneakers/Blowfish Malibu Fruit Washed Canvas Lace Up Sneaker 4659.webp" alt="Product 2" />
+          <h3>Blowfish Malibu Fruit Washed Canvas Lace Up Sneaker</h3>
+          <p>₹4659</p>
+          <button onclick="addToCart('Blowfish Malibu Fruit Washed Canvas Lace Up Sneaker')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/sneakers/Hoka Clifton.webp" alt="Product 1" />
+          <h3>Hoka Clifton Sneaker</h3>
+          <p>₹8429</p>
+          <button onclick="addToCart('Hoka Clifton Sneaker')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/sneakers/Nike Court Vision Low Next Nature Shoe 4995.webp" alt="Product 3" />
+          <h3>Nike Court Vision Low Next Nature Sneaker</h3>
+          <p>₹4995</p>
+          <button onclick="addToCart('Nike Court Vision Low Next Nature Sneaker')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/sneakers/On Running Cloud x 4 Ivory 18177.webp" alt="Product 2" />
+          <h3>On Running Cloud x 4 Ivory Sneaker</h3>
+          <p>₹18177</p>
+          <button onclick="addToCart('On Running Cloud x 4 Ivory Sneaker')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/sneakers/Puma Vikky V3 Black Sneakers 2899.webp" alt="Product 3" />
+          <h3>Puma Vikky V3 Black Sneakers</h3>
+          <p>₹2899</p>
+          <button onclick="addToCart('Puma Vikky V3 Black Sneakers')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/sneakers/Skechers DLites Fresh Start Sneakers 8488.webp" alt="Product 2" />
+          <h3>Skechers DLites Fresh Start Sneakers</h3>
+          <p>₹8488</p>
+          <button onclick="addToCart('Skechers DLites Fresh Start Sneakers')">Add to Cart</button>
+        </div>
+    </section>
+    <section class="d">
+      <br>
+      <br>
+      <h2>
+        Perfumes
+      </h2>
+      <br>
+      <br>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="./images/perfumes/Arfam Club De Nuit Eau Da Parfum 3000.webp" alt="Product 2" />
+          <h3>Arfam Club De Nuit Eau Da Parfum</h3>
+          <p>₹3000</p>
+          <button onclick="addToCart('Arfam Club De Nuit Eau Da Parfum')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/perfumes/Carolina Herrera Very Good Girl Eau De Parfum 6081.webp" alt="Product 1" />
+          <h3>Carolina Herrera Very Good Girl Eau De Parfum</h3>
+          <p>₹6081</p>
+          <button onclick="addToCart('Carolina Herrera Very Good Girl Eau De Parfum')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/perfumes/Foxtale Valley of Flowers Eau De Perfume.webp" alt="Product 3" />
+          <h3>Foxtale Valley of Flowers Eau De Perfume</h3>
+          <p>₹999</p>
+          <button onclick="addToCart('Foxtale Valley of Flowers Eau De Perfume')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/perfumes/mCaffeine Elegant Fruity Fragrance with Cherry & Rose Perfume 899.webp" alt="Product 2" />
+          <h3>mCaffeine Elegant Fruity Fragrance with Cherry & Rose Perfume</h3>
+          <p>₹899</p>
+          <button onclick="addToCart('mCaffeine Elegant Fruity Fragrance with Cherry & Rose Perfume')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/perfumes/RENEE Eau Da Parfum Bloom 289.webp" alt="Product 3" />
+          <h3>RENEE Eau Da Parfum Bloom</h3>
+          <p>₹289</p>
+          <button onclick="addToCart('RENEE Eau Da Parfum Bloom')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/perfumes/Victoria's Secret Bombshell Eau Da Parfum 8799.webp" alt="Product 2" />
+          <h3>Victoria's Secret Bombshell Eau Da Parfum</h3>
+          <p>₹8799</p>
+          <button onclick="addToCart('Victorias Secret Bombshell Eau Da Parfum')">Add to Cart</button>
+        </div>
+    </section>
+    <section class="f">
+      <br>
+      <br>
+      <h2>
+        HandBags
+      </h2>
+      <br>
+      <br>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="./images/bags/Aldo Annaendra Beige bag 9999.webp" alt="Product 2" />
+          <h3>Aldo Annaendra Beige Handbag</h3>
+          <p>₹9999</p>
+          <button onclick="addToCart('Aldo Annaendra Beige Handbag')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/bags/Dasein Satchel Handbag 6782.webp" alt="Product 1" />
+          <h3>Dasein Satchel Handbag</h3>
+          <p>₹6788</p>
+          <button onclick="addToCart('Dasein Satchel Handbag')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/bags/Exotic Studded Hand Bag.webp" alt="Product 3" />
+          <h3>Exotic Studded HandBag</h3>
+          <p>₹799</p>
+          <button onclick="addToCart('Exotic Studded Hand Bag')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/bags/Handbag M Le Pliage Original Steel Longchamp 1099.webp" alt="Product 2" />
+          <h3>Handbag M Le Pliage Original Steel Longchamp</h3>
+          <p>₹1099</p>
+          <button onclick="addToCart('Handbag M Le Pliage Original Steel Longchamp')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/bags/Michael Kors Charlotte Signature Handbag 7899.webp" alt="Product 3" />
+          <h3>Michael Kors Charlotte Signature Handbag</h3>
+          <p>₹7899</p>
+          <button onclick="addToCart('Michael Kors Charlotte Signature Handbag')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./images/bags/Speed X Fashion Handbad 899.webp" alt="Product 2" />
+          <h3>Your Name Your Jewellery</h3>
+          <p>₹899</p>
+          <button onclick="addToCart('Speed X Fashion Handbad')">Add to Cart</button>
+        </div>
+    </section>      
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

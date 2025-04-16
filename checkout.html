@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout - Tanvi's Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #F9D1BD;
+      margin: 0;
+      padding: 30px;
+    }
+    .checkout-box {
+      max-width: 500px;
+      margin: auto;
+      border: 1px solid #eee;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px;
+      width: 100%;
+      background-color: hotpink;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: deeppink;
+    }
+  </style>
+</head>
+<body>
+  <div class="checkout-box">
+    <h2>Checkout</h2>
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name">
+    <label>Address</label>
+    <input type="text" placeholder="Delivery address">
+    <label>Payment</label>
+    <input type="text" placeholder="Card / UPI (dummy)">
+    <button onclick="placeOrder()">Place Order</button>
+  </div>
+
+  <script>
+    function placeOrder() {
+      alert("🎉 Order placed successfully! Thank you for shopping with Tanvi's Store.");
+      window.location.href = "index.html"; 
+    }
+  </script>
+</body>
+</html>

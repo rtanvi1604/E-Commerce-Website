@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Taffy & Tulle</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #310e68;
+      background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .store-name {
+      font-size: 32px;
+      font-weight: bold;
+      color: hotpink;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+      letter-spacing: 1px;
+    }
+
+    .login-box {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 300px;
+    }
+
+    input {
+      width: 90%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 12px 20px;
+      background: hotpink;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: deeppink;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="store-name">Taffy & Tulle</div>
+
+  <div class="login-box">
+    <h2>Welcome Back 👋</h2>
+    <input type="text" placeholder="Email or Username" />
+    <input type="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+  </div>
+
+  <script>
+    function login() {
+      window.location.href = "index.html";
+    }
+  </script>
+
+</body>
+</html>
