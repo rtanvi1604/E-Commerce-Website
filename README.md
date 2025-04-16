@@ -1,4 +1,4 @@
-# 🛍️ Tanvi's E-Commerce Website
+# 🛍️ Tanvi's E-Commerce Website -Taffy & Tulle
 
 Welcome to **Taffy & Tulle**, a beautifully designed and responsive e-commerce website built using **HTML**, **CSS**, and **JavaScript** 💖
 
