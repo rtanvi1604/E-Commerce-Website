@@ -21,8 +21,7 @@ Welcome to **Taffy & Tulle**, a beautifully designed and responsive e-commerce w
 - JavaScript (vanilla)
 
 ## 📸 Screenshots
-![Screenshot]![image](https://github.com/user-attachments/assets/1665cbac-b10a-41e5-9f81-b42b728f4811)
-)  
+![Screenshot](https://github.com/user-attachments/assets/1665cbac-b10a-41e5-9f81-b42b728f4811)  
 _Add screenshots of your homepage or login page here to show off!_
 
 ## 🚀 Getting Started
